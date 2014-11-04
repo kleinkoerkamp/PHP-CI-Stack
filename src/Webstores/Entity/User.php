@@ -45,4 +45,9 @@ class User {
     {
         $this->lastName = $lastName;
     }
+
+    public function getFullName()
+    {
+        return $this->firstName . " " . $this->lastName;
+    }
 } 
