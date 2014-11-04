@@ -12,7 +12,7 @@ class UserTest extends PHPUnit_Framework_TestCase {
         $user = new User();
         $user->setFirstName("Frank");
 
-        $this->assertEquals("Frank", $user->getFirstName());
+        $this->assertEquals("Frank2", $user->getFirstName());
     }
 }
  
