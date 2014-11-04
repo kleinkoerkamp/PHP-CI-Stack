@@ -7,11 +7,6 @@
  */
 
 
-function loader($class)
-{
-    $file = $class . '.php';
-    if (file_exists($file)) {
-        require $file;
-    }
-}
-spl_autoload_register('loader');
+include_once('AutoLoader.php');
+// Register the directory to your include files
+AutoLoader::registerDirectory('src');
