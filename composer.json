@@ -1,0 +1,22 @@
+{
+    "name": "Webstores/PHPStack",
+    "description": "CI - Test",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Frank Klein Koerkamp",
+            "email": "frank@webstores.nl"
+        }
+    ],
+    "require-dev": {
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {"psr-0": {"": "src"}},
+    "require": {
+        "phpspec/phpspec": "2.1.x-dev",
+        "phpunit/phpunit": "4.5.x-dev"
+    }
+}
