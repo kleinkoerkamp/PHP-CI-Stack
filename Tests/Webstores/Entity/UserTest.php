@@ -1,4 +1,9 @@
 <?php
+
+namespace Webstores\Entity;
+
+use PHPUnit_Framework_TestCase;
+
 /**
  * Created by PhpStorm.
  * User: frankkleinkoerkamp

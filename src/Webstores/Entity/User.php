@@ -1,4 +1,7 @@
 <?php
+
+namespace Webstores\Entity;
+
 /**
  * Created by PhpStorm.
  * User: frankkleinkoerkamp
@@ -50,4 +53,4 @@ class User {
     {
         return $this->firstName . " " . $this->lastName;
     }
-} 
+}
