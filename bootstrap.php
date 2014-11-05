@@ -6,6 +6,6 @@
  * Time: 14:30
  */
 use Doctrine\Common\ClassLoader;
-require '/vendor/doctrine/common/lib/Doctrine/Common/ClassLoader.php';
+require 'vendor/doctrine/common/lib/Doctrine/Common/ClassLoader.php';
 $commonLoader = new ClassLoader('Doctrine\Common', '/src');
 $commonLoader->register();
