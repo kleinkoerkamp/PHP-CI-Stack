@@ -18,6 +18,7 @@
     "require": {
         "phpspec/phpspec": "2.1.x-dev",
         "phpunit/phpunit": "4.5.x-dev",
-        "doctrine/orm": "2.5.x-dev"
+        "doctrine/orm": "2.5.x-dev",
+        "pulse00/ffmpeg-bundle": "0.5.2"
     }
 }

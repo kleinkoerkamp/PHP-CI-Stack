@@ -20,7 +20,6 @@ install:
 
 script:
   - bin/phpspec run -v
-  - phpunit --configuration phpunit.xml --coverage-text
 
 # configure notifications (email, IRC, campfire etc)
 notifications:
